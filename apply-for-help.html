@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4dcab45790.js" crossorigin="anonymous"></script>
+    <title> Apply For Help </title>
+</head>
+<body>
+    <header>
+        <figure>
+            <a href="index.html"><img class="logo-container" src="images/logo/logo.png" alt="Logo" width="150px" height="150px"></a>
+         </figure>
+        <nav>
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span>
+            </label>
+                <ul class="menu">
+                    <li><a href="index.html">Home </a></li>
+                    <li>
+                        <a href="services.html">
+                            <div class="dropdown">
+                                <span>Services</span>
+                                <div class="dropdown-content">
+                                <a href="apply-for-help.html">Apply for Help</a>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="get-involved.html">Get Involved</a></li>
+                </ul>          
+        </nav>
+    </header>
+    <main>
+        <section class="mission">
+            <p>Our mission is to transform the lives of pets and their owners by providing vital financial assistance for animal care. Through generous donations and unwavering dedication, we bridge the gap between low-income pet owners and essential veterinary support, ensuring every pet receives the care they deserve. Join us in our journey to make a positive difference in the lives of pets and their owners. Together, we can create a more compassionate and inclusive world for all.</p>
+        </section>
+        <section class="application-info rspn">
+            <h1>Applying for Help</h1>
+            <p>When applying for help please 
+                feel free to customize the 
+                questionnaires to suit your 
+                specific pet service needs.</p>
+            <form class="application-form">
+                <label for="name">Name:</label>
+                <input type="text" name="name">
+                <label for="email">Email Address:</label>
+                <input type="email" name="email">
+                <label for="address">Address:</label>
+                <input type="text" name="address">
+                <label for="pet">Type of Pet:</label>
+                <input type="text" name="pet">
+                <label for="pet-name">Pet's Name:</label>
+                <input type="text" name="pet-name">
+                <label for="pet-help">Briefly describe the help you need for your pet:</label>
+                <input type="text" name="pet-name" placeholder="(e.g., dog walking, pet sitting, grooming, etc.)">
+                <label for="pet-service">How often do you require this service?</label>
+                <input type="text" name="pet-service" placeholder="(daily, weekly, occassionally)">
+                <label for="date">Preferred schedule or date/time for the service:</label>
+                <input type="date" name="date">
+                <label for="instructions">Any specific instructions or special requirements for your pet:</label>
+                <input type="text" name="instructions" placeholder="(diet, medical needs, behavior, etc)">
+                <label for="medical">Is your pet up to date on vaccinations and medications?</label>
+                <input type="text" name="medical">
+                <label for="emergency">Emergency contact information:</label>
+                <input type="text" name="emergency" placeholder="(name and phone number)">
+                <label for="comments">Any other information or comments you'd like to add:</label>
+                <input type="text" name="comments">
+                <input type="submit"id="submit-btn"placeholder="Submit">
+            </form>
+            <img src="images/pets/cat-and-dog.jpg" alt="catanddog" width="800px" height="472px">
+            <h1>Transportation</h1>
+            <form class="application-form">
+                <label for="address">Address:</label>
+                <input type="text" name="address">
+                <label for="details">Pet Details</label>
+                <input type="text" name="details">
+                <label for="pet-name">Pet's Name:</label>
+                <input type="text" name="pet-name">
+                <label for="pet">Type of Pet:</label>
+                <input type="text" name="pet">
+                <label for="breed">Breed:</label>
+                <input type="text" name="breed">
+                <label for="age">Age:</label>
+                <input type="text" name="age">
+                <label for="weight">Weight:</label>
+                <input type="text" name="weight">
+                <label for="instructions">Any specific instructions or special requirements for your pet:</label>
+                <input type="text" name="instructions" placeholder="(diet, medical needs, behavior, etc)">
+                <label for="transportation-det">Transportation Details:</label>
+                <input type="text" name="transportation-dets">
+                <label for="date-time">Date and Time of Service Requested:</label>
+                <input type="datetime-local" name="date-time">
+                <label for="location">Pickup Location:</label>
+                <input type="text" name="location">
+                <label for="destination">Destination</label>
+                <input type="text" name="destination" placeholder="(Is this a one-way trip or round-trip?)">
+                <label for="carrier">Will you provide a carrier or crate for your pet?</label>
+                <input type="text" name="carrier" placeholder="(If not would you like to provide one?)">
+                <label for="vaccine">Is your pet up to date on vaccinations and flea/tick prevention?</label>
+                <input type="text" name="vaccine">
+                <label for="allergies">Does your pet have any allergies or medical conditions we should be aware of?</label>
+                <label for="emergency-contact">Emergency contact in care of unforseen circumstances:</label>
+                <input type="text" name="emergency-contact">
+                <label for="toy">Does your pet have a favorite toy or blanket they should bring? Preferred temperature and ventilation settings for transportation?</label>
+                <input type="text" name="toy">
+                <div class="checkbox">
+                    <input type="checkbox" name="terms"><label for="terms">Terms and Conditions: Please acknowledge and agree to the terms and conditions of the pet transportation service, including liability and cancellation policies.</label> 
+                </div> 
+               <input type="submit"id="submit-btn"placeholder="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="social-media">
+                <i class="fa-brands fa-instagram" style="color: #011638;"></i>
+                <i class="fa-brands fa-facebook" style="color: #011638;"></i>
+                <i class="fa-brands fa-yelp" style="color: #011638;"></i>
+            </div>
+            <p class="contact">Phone  123-444-6767</p>
+        </div>
+        <p class="copyright">&copy Paw Palzz 2023</p>
+    </footer>
+</body>
+</html>
